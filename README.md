@@ -1,2 +1,16 @@
-# talent-scout-hiring-assistant
-TalentScout: AI Hiring Assistant An intelligent, Streamlit-based chatbot that automates the initial technical screening for technology positions by collecting candidate details and generating tailored interview questions.
+# TalentScout Hiring Assistant
+
+A Streamlit-based chatbot for automated technical screening of candidates.
+
+## Features
+
+- Collects candidate information through natural conversation
+- Extracts and validates candidate details using AI
+- Generates tailored technical questions based on tech stack
+- Stores candidate data locally for review
+
+## Setup
+
+1. Install dependencies:
+```bash
+pip install -r requirements.txt

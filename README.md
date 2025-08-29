@@ -1,16 +1,12 @@
-# TalentScout Hiring Assistant
+TalentScout - AI Hiring Assistant
+TalentScout is a Streamlit-based chatbot that automates the first round of technical screening by collecting key candidate details, validating them safely, and running stack‑aware Q&A with instant evaluation. It supports multilingual prompts, inline sentiment badges, and lightweight personalization (language, difficulty, recent topics) saved by email. Core validations include RFC email with unicode normalization, E.164 phone formatting, ISO country with country‑constrained city geocoding, and case‑insensitive tech‑stack parsing with aliases and conservative fuzzy matching. Data is stored locally as JSON for development, while real secrets stay in local environment files (not committed).
 
-A Streamlit-based chatbot for automated technical screening of candidates.
+Key features
 
-## Features
+Automated intake with strict validation (email, phone, location, tech stack).
 
-- Collects candidate information through natural conversation
-- Extracts and validates candidate details using AI
-- Generates tailored technical questions based on tech stack
-- Stores candidate data locally for review
+Dynamic, stack‑aware questions with real‑time feedback.
 
-## Setup
+Multilingual prompts and visible sentiment for user turns.
 
-1. Install dependencies:
-```bash
-pip install -r requirements.txt
+Personalization by email (language/difficulty/recent topics).
